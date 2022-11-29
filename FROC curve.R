@@ -5,7 +5,7 @@ df <- read_excel("D:/User Files/Matthew/R Package For Dad/Database.xlsx")
 
 xCoordinates <- c()
 yCoordinates <- c()
-
+#adding comment to test github
 cutoff <- sort(unique(df$rating))
 for(cut in cutoff){
   Confidence <- df[df$rating >= cut,]

@@ -11,7 +11,7 @@ TrueNegative <- c()
 FalsePositive <- c()
 FalseNegative <- c()
 
-
+#and adding a comment here too to test github
 FROCDataFindings <- data.frame('Condition' = character(), 'Min' = double(), 'Max' = double(), 'Average' = double(), 'Standard Deviation' = double())
 
 for (modal in Techniques){
